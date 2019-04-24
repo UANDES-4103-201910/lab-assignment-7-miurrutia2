@@ -1,3 +1,55 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+.grid-container {
+  display: grid;
+  grid-gap: 3px;
+  background-color: #747474;
+  padding: 2px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.item1 {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2;
+  grid-row: 1 / span 1;
+}
+.item14 {
+  grid-column: 14 ;
+  grid-row: 1 ;
+}
+.item5 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.item21 {
+  grid-column: 13 / span 2;
+  grid-row: 3;
+}
+.item27 {
+  grid-column: 12 / span 3;
+  grid-row: 4;
+}
+.item29 {
+  grid-column: 3 / span 10;
+  grid-row: 5;
+}
+.item28 {
+  grid-column: 2 / span 1;
+  grid-row: 5;
+}
+.item30 {
+  grid-column: 13 / span 1;
+  grid-row: 5;
+}
